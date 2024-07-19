@@ -3,7 +3,7 @@
 > [!WARNING]
 > Experimental & incomplete
 
-Turbo Native driver for htmx.
+Turbo Native driver for htmx. Pair with https://github.com/domchristie/turbo-shim
 
 ```javascript
 import 'htmx.org'
