@@ -64,6 +64,10 @@ export default class {
 
   // # Visit Delegate
 
+  visitStarted(visit) {
+    this.currentVisit = visit
+  }
+
   issueRequest (visit) {
     if (visit.action === 'restore') {
       window.history.back()
